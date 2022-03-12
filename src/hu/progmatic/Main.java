@@ -31,7 +31,7 @@ public class Main {
         }
         System.out.println("Osztok száma : " + count);*/
 
-        int count = 0;
+        /*int count = 0;
         int  number = 2147483647;
         for (long i = 1; i <= number ; i++){
             if ( number % i == 0){
@@ -44,7 +44,18 @@ public class Main {
             System.out.println("Prím");
         } else {
             System.out.println("Nem prím");
-        }
+        }*/
 
+        int n1 = 5432;
+        int n2 = 2345;
+        int common = 0;
+
+        for (int i = 1; i<= n2 || i<= n1; i++){
+            if ( n1 % i == 0 && n2 % i == 0) {
+                common = i;
+            }
+
+        }
+        System.out.println("A legnagyobb közös osztó:" + common);
     }
 }
