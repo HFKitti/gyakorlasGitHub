@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int year = 1999;
+       /* int year = 1999;
         if (year > 1582) {
             if (year % 4 == 0 && year % 400 == 0) {
                 System.out.println("Szökőév");
@@ -17,7 +17,18 @@ public class Main {
             }
         }   else {
             System.out.println("Nem szökőév");
-        }
+        }*/
 
+
+        int count = 0;
+        int  number = 30;
+        for (int i= 1; i <= number ; i++){
+            if ( number % i == 0){
+                count++;
+            }
+
+
+        }
+        System.out.println("Osztok száma : " + count);
     }
 }
