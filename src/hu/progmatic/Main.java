@@ -20,10 +20,10 @@ public class Main {
         }*/
 
 
-       /* int count = 0;
-        int  number = 30;
-        for (int i= 1; i <= number ; i++){
-            if ( number % i == 0){
+        /*int count = 0;
+        int  number = Integer.MAX_VALUE;
+        for (int i= 0; i < number ; i++){
+            if ( number % (i+1)  == 0){
                 count++;
             }
 
@@ -46,7 +46,7 @@ public class Main {
             System.out.println("Nem prím");
         }*/
 
-        int n1 = 5432;
+        /*int n1 = 5432;
         int n2 = 2345;
         int common = 0;
 
@@ -56,6 +56,6 @@ public class Main {
             }
 
         }
-        System.out.println("A legnagyobb közös osztó:" + common);
+        System.out.println("A legnagyobb közös osztó:" + common);*/
     }
 }
