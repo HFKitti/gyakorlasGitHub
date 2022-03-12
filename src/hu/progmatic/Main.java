@@ -20,7 +20,7 @@ public class Main {
         }*/
 
 
-        int count = 0;
+       /* int count = 0;
         int  number = 30;
         for (int i= 1; i <= number ; i++){
             if ( number % i == 0){
@@ -29,6 +29,22 @@ public class Main {
 
 
         }
-        System.out.println("Osztok száma : " + count);
+        System.out.println("Osztok száma : " + count);*/
+
+        int count = 0;
+        int  number = 2147483647;
+        for (long i = 1; i <= number ; i++){
+            if ( number % i == 0){
+                count++;
+            }
+
+        }
+
+        if (count == 2) {
+            System.out.println("Prím");
+        } else {
+            System.out.println("Nem prím");
+        }
+
     }
 }
