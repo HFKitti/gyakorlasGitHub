@@ -103,16 +103,21 @@ public class Main {
 
        Scanner scanner = new Scanner(System.in);
        String light1 = scanner.nextLine();
-        if ((light1.equalsIgnoreCase("december"))
-                ||light1.equalsIgnoreCase("január"))
-                || light1.equalsIgnoreCase("február") {
+        if (light1.equalsIgnoreCase("december")
+                ||light1.equalsIgnoreCase("január")
+                || light1.equalsIgnoreCase("február")) {
             System.out.println("TÉL");
-        } else if (light1.equalsIgnoreCase("sárga")){
-            System.out.println("LASSITS!");
-        } else if (light1.equalsIgnoreCase("piros")){
-            System.out.println("MEGÁLLJ!");
+        } else if (light1.equalsIgnoreCase("március")
+                ||light1.equalsIgnoreCase("április")
+                || light1.equalsIgnoreCase("május")) {
+            System.out.println("TAVASZ");
+        } else if (light1.equalsIgnoreCase("junius")
+                ||light1.equalsIgnoreCase("julius")
+                || light1.equalsIgnoreCase("augusztus")) {
+            System.out.println("NYÁR");
         }else{
-            System.out.println("NEM TUDOM");
+            System.out.println("ŐSZ");
+        }
 
 
 
